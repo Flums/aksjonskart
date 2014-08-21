@@ -1,0 +1,40 @@
+ var myStyle = {
+    "color": "#ff7800",
+    "weight": 10,
+    "opacity": 1,
+    "radius": 8,
+    "color": "#000"
+};
+
+var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "style": myStyle,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [11.72, 59.916064]
+    }
+};
+
+var geojsonFeature2 = {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "style": myStyle,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [11.71, 59.912064]
+    }
+};
+
+var soketeig1 = {
+    
+    
+};
