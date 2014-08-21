@@ -39,3 +39,4 @@ Thumbs.db
 # Offline maps       #
 ######################
 tiles/
+.vagrant

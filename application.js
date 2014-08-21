@@ -50,7 +50,7 @@ var overlays = {
 var map = L.map('map', {
     center: [lastcenter_lat, lastcenter_lng], 
     zoom: lastZoom,
-    layers: [topo2offline, ressurser, teiger, poi]
+    layers: [topo2, ressurser, teiger, poi]
 });
 
 
