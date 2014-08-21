@@ -36,9 +36,15 @@ var topo2 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmap
     maxZoom: 16
 });
 
+var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '', 
+    maxZoom: 16
+});
+
 var basemaps = {
     "Topo2 (offline)": topo2offline,
-    "Topo2": topo2
+    "Topo2": topo2,
+    "OSM": osm
 };
 
 var overlays = {
