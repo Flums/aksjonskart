@@ -31,7 +31,7 @@ var topo2offline = L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
     maxZoom: 16
 });
 
-var topo2 = L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
+var topo2 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {
     attribution: '', 
     maxZoom: 16
 });
