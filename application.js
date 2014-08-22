@@ -33,7 +33,7 @@ var topo2offline = L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
 
 var topo2 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {
     attribution: '', 
-    maxZoom: 16
+    maxZoom: 20
 });
 
 var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -41,10 +41,17 @@ var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 16
 });
 
+var kartblad = L.tileLayer('http://openwms.statkart.no/skwms1/wms.rutenett?request=GetCapabilities&service=wms&version=1.1.1', {
+    attribution: '', 
+    maxZoom: 16
+});
+
+
 var basemaps = {
     "Topo2 (offline)": topo2offline,
     "Topo2": topo2,
-    "OSM": osm
+    "OSM": osm,
+    "kartblad": kartblad
 };
 
 var overlays = {
