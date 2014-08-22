@@ -1,3 +1,5 @@
+// Defines the icons used for tracking (e.g. APRS)
+
 var icon_infra = L.icon({
                 iconUrl: 'icon_infra.png',
                 iconSize: [30, 30],
