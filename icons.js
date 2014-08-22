@@ -29,6 +29,6 @@ var icon_motorcycle = L.icon({
 });
 
 var icon_default = L.icon({
-                iconUrl: 'icon_default.png',
+                iconUrl: 'icon_default.gif',
                 iconSize: [30, 30],
 });
