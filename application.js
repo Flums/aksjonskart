@@ -114,6 +114,6 @@ new L.GPX(gpx, {
           
 
 
-//var marker2 = L.marker([59.916064, 11.72], {icon: redcross}).addTo(map);
+// var marker2 = L.marker([59.916064, 11.72], {icon: redcross}).addTo(map);
 L.geoJson(geojsonFeature).addTo(poi);
 L.geoJson(geojsonFeature2).addTo(poi);
